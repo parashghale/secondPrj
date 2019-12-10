@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.Simpleintrest"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Principle"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/principle"
+        />
+
+    <EditText
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rate"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Calculate Simple Intrest"
+        />
+</LinearLayout>
