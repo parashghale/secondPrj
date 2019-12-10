@@ -5,19 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/swapp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="188dp">
+        android:layout_height="193dp">
 
         <Button
             android:id="@+id/btnArea"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="190dp"
+            android:layout_height="45dp"
             android:layout_margin="10dp"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:background="@color/btn"
+            android:gravity="center"
             android:text="Area of cirlcle"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,47 +27,41 @@
 
         <Button
             android:id="@+id/btnArmstrong"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="135dp"
+
+            android:layout_height="43dp"
             android:layout_margin="10dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="36dp"
+            android:background="@color/btn"
             android:text="Armstrong"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.761"
+            app:layout_constraintHorizontal_bias="0.789"
             app:layout_constraintStart_toEndOf="@+id/btnArea"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btnAutomorphic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="160dp"
+            android:layout_height="46dp"
+
             android:layout_margin="10dp"
             android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
+            android:background="@color/btn"
             android:text="Automorphic"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnArea" />
 
         <Button
-            android:id="@+id/btnPalindrome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_marginTop="8dp"
-            android:text="Palindrome"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.809"
-            app:layout_constraintStart_toEndOf="@+id/btnAutomorphic"
-            app:layout_constraintTop_toBottomOf="@+id/btnArmstrong" />
-
-        <Button
             android:id="@+id/btnSimpleInterest"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="162dp"
+            android:layout_height="67dp"
+
             android:layout_margin="10dp"
+            android:background="@color/btn"
             android:text="Simple Interest"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,16 +69,34 @@
 
         <Button
             android:id="@+id/btnSwapping"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="137dp"
+            android:layout_height="42dp"
+
             android:layout_margin="10dp"
             android:layout_marginTop="8dp"
+            android:background="@color/btn"
             android:text="Swapping"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.804"
+            app:layout_constraintHorizontal_bias="0.843"
             app:layout_constraintStart_toEndOf="@+id/btnSimpleInterest"
             app:layout_constraintTop_toBottomOf="@+id/btnPalindrome" />
+
+        <Button
+            android:id="@+id/btnPalindrome"
+            android:layout_width="168dp"
+            android:layout_height="42dp"
+            android:layout_margin="15sp"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/btn"
+            android:text="Palindrome"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/btnAutomorphic"
+            app:layout_constraintTop_toBottomOf="@+id/btnArmstrong" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

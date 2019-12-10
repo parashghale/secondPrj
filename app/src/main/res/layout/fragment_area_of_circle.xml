@@ -8,14 +8,22 @@ android:background="@color/colorAccent"
 tools:context="fragment.AreaOfCircle">
 
 <EditText
+    android:textSize="28dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="Enter radius"
     android:id="@+id/etRadius"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
 
     />
 
 <Button
+    android:textSize="29dp"
+    android:textStyle="bold"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:textColor="@color/colorAccent"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:hint="Calculate"

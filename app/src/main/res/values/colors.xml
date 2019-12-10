@@ -2,5 +2,13 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#EB6995</color>
+    <color name="arm">#EBD7A5</color>
+    <color name="auto">#BFCFF5</color>
+    <color name="palin">#E1B4E7</color>
+    <color name="swapp">#8BC34A</color>
+
+    <color name="btn">#22DB29</color>
+
+
 </resources>

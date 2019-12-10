@@ -43,7 +43,7 @@ public class AreaOfCircle extends Fragment implements View.OnClickListener{
         float radius =Float.parseFloat(etRadius.getText().toString());
         float area=3.14f * radius * radius;
 
-        Toast.makeText(getActivity(), "Area of circle is"+area, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getActivity(), "Area of circle is"+" "+area, Toast.LENGTH_SHORT).show();
 
     }
 }

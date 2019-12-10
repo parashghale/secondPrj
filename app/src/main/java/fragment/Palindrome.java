@@ -58,9 +58,9 @@ TextView txtv;
         }
 
         if (temp == rev)
-            txtv.setText("Yes "+temp+" is a palindrome number.");
+            txtv.setText(" Yes "+temp+" is a palindrome number.");
         else
-            txtv.setText("o"+temp+" is not a palindrome number.");
+            txtv.setText(" "+temp+" is not a palindrome number.");
 
     }
 

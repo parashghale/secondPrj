@@ -10,7 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Principle"
-        android:textSize="30dp"
+        android:textSize="28dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:textStyle="bold"
         android:id="@+id/principle"
         />
@@ -20,21 +22,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Rate"
-        android:textSize="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="28dp"
         android:textStyle="bold"
         />
     <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:id="@+id/time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Time"
-        android:textSize="30dp"
+        android:textSize="28dp"
         android:textStyle="bold"
         />
 
     <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:id="@+id/btnSI"
-        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:hint="Calculate Simple Intrest"

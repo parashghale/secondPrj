@@ -3,11 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="fragment.ArmStrong"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/arm">
 
     <EditText
         android:id="@+id/etArmstrong"
-        android:textSize="20sp"
+        android:textSize="28dp"
         android:hint="Entre number"
         android:inputType="number"
         android:layout_marginLeft="20dp"
@@ -19,7 +20,8 @@
 
     <Button
         android:id="@+id/btnArmstrongC"
-        android:textSize="20sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:text="Check Armstrong"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
